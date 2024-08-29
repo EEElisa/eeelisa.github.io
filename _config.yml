@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Mingqian
+first_name: Mingqian 
 middle_name:
-last_name: Zheng
+last_name: Zheng 郑鸣谦
 email: mingqia2@andrew.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD student at CMU's LTI 
