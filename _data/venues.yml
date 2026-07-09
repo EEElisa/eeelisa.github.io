@@ -1,9 +1,21 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges for publications.
+# The key must EXACTLY match the `abbr` field in _bibliography/papers.bib
+# (including "Findings", spaces, and year). Optional `url` links the badge.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"COLM 2026":
+  color: "#7b2cbf"
 
-"Vision":
-  color: "#009f36"
+"ACL 2026 Findings":
+  color: "#e07a1f"
+
+"EMNLP 2025":
+  color: "#b3123b"
+
+"EMNLP 2025 Findings":
+  color: "#d34d6e"
+
+"NAACL 2025":
+  color: "#1e6091"
+
+"EMNLP 2024 Findings":
+  color: "#d34d6e"
