@@ -1,21 +1,15 @@
 # Venue badges for publications.
 # The key must EXACTLY match the `abbr` field in _bibliography/papers.bib
-# (including "Findings", spaces, and year). Optional `url` links the badge.
+# (including "Findings", spaces, and year).
+#
+# Badge appearance is now handled centrally in _sass/_base.scss: every badge
+# renders as an outlined pill in the site theme color. Set a `color:` here only
+# if you want to override one specific venue; add `url:` to link the badge.
 
+"EMNLP 2026":
 "COLM 2026":
-  color: "#7b2cbf"
-
 "ACL 2026 Findings":
-  color: "#e07a1f"
-
 "EMNLP 2025":
-  color: "#b3123b"
-
 "EMNLP 2025 Findings":
-  color: "#d34d6e"
-
 "NAACL 2025":
-  color: "#1e6091"
-
 "EMNLP 2024 Findings":
-  color: "#d34d6e"
