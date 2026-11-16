@@ -1,8 +1,21 @@
 ---
 ---
+@inproceedings{yerukola2026xybench,
+  title={XYBench: Can LLMs Respond Pragmatically to Queries with Misconceptions?},
+  author={Yerukola, Akhila and Hwang, Jena D. and Zheng, Mingqian and Godsey, Jenna and Kim, Hyunwoo and Pyatkin, Valentina and Hu, Jennifer and Sap, Maarten},
+  booktitle={EMNLP},
+  year={2026},
+  url={https://arxiv.org/abs/2609.06842},
+  selected={true},
+  category={EMNLP 2026},
+  abbr={EMNLP 2026},
+  award={Best Resource Paper Award at EMNLP 2026},
+  award_name={🥇 Best Resource Paper},
+}
+
 @inproceedings{zheng2026uselessSafe,
   title={Useless but Safe? Benchmarking Utility Recovery with User Intent Clarification in Multi-Turn Conversations},
-  author={Zheng, Mingqian and Morgan, Malia and Jiang, Liwei and Rose, Carolyn and Sap, Maarten},
+  author={Mingqian Zheng and Malia Morgan* and Liwei Jiang* and Carolyn Rose and Maarten Sap},
   booktitle={COLM},
   year={2026},
   url={https://arxiv.org/abs/2604.27093},
@@ -13,7 +26,7 @@
 
 @inproceedings{cohen2026imperfectlyCooperative,
   title={Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies},
-  author={Cohen, Myke C. and Zheng, Mingqian and Bhandari, Neel and Kao, Hsien-Te and Zhou, Xuhui and Nguyen, Daniel and Cassani, Laura and Sap, Maarten and Volkova, Svitlana},
+  author={Myke C. Cohen* and Mingqian Zheng* and Neel Bhandari* and Hsien-Te Kao and Xuhui Zhou and Daniel Nguyen and Laura Cassani and Maarten Sap and Svitlana Volkova},
   booktitle={Findings of ACL},
   year={2026},
   url={http://arxiv.org/abs/2604.15607},
@@ -22,9 +35,10 @@
   abbr={ACL 2026 Findings},
 }
 
-@misc{zheng2025leteasycontextualeffects,
+@inproceedings{zheng2025leteasycontextualeffects,
       title={Let Them Down Easy! Contextual Effects of LLM Guardrails on User Perceptions and Preferences}, 
       author={Mingqian Zheng and Wenjia Hu and Patrick Zhao and Motahhare Eslami and Jena D. Hwang and Faeze Brahman and Carolyn Rose and Maarten Sap},
+      booktitle={Findings of EMNLP},
       year={2025},
       eprint={2506.00195},
       archivePrefix={arXiv},
@@ -35,9 +49,10 @@
       abbr={EMNLP 2025 Findings},
 }
 
-@misc{liu2025syntheticsocraticdebatesexamining,
+@inproceedings{liu2025syntheticsocraticdebatesexamining,
       title={Synthetic Socratic Debates: Examining Persona Effects on Moral Decision and Persuasion Dynamics}, 
       author={Jiarui Liu and Yueqi Song* and Yunze Xiao* and Mingqian Zheng* and Lindia Tjuatja and Jana Schaich Borg and Mona Diab and Maarten Sap},
+      booktitle={EMNLP},
       year={2025},
       eprint={2506.12657},
       archivePrefix={arXiv},
@@ -48,21 +63,49 @@
       abbr={EMNLP 2025}
 }
 
-@article{ivey2024realroboticassessingllms,
-      title={Causally Modeling the Linguistic and Social Factors that Predict Email Response}, 
-      author={Yinuo Xu* and Hong Chen* and Sushrita Rakshit* and Aparna Ananthasubramaniam* and Omkar Yadav* and Mingqian Zheng* and Michael Jiang* and Lechen Zhang* and Bowen Yi* and Kenan Alkiek* and Abraham Israeli* and Bangzhao Shu* and Hua Shen* and Jiaxin Pei* and Haotian Zhang* and Miriam Schirmer* and David Jurgens},
-      month = sep,
-      year={2024},
-      selected={true},
-      category={NAACL 2025},
-      abbr={NAACL 2025},
+@inproceedings{xu-etal-2025-causally,
+    title = "Causally Modeling the Linguistic and Social Factors that Predict Email Response",
+    author = "Xu*, Yinuo  and
+      Chen*, Hong  and
+      Rakshit*, Sushrita  and
+      Ananthasubramaniam*, Aparna  and
+      Yadav*, Omkar  and
+      Zheng*, Mingqian  and
+      Jiang*, Michael  and
+      Zhang*, Lechen  and
+      Yi*, Bowen  and
+      Alkiek*, Kenan  and
+      Israeli*, Abraham  and
+      Shu*, Bangzhao  and
+      Shen*, Hua  and
+      Pei*, Jiaxin  and
+      Zhang*, Haotian  and
+      Schirmer*, Miriam  and
+      Jurgens, David",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "NAACL",
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.594/",
+    doi = "10.18653/v1/2025.naacl-long.594",
+    pages = "11842--11866",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Email is a vital conduit for human communication across businesses, organizations, and broader societal contexts. In this study, we aim to model the intents, expectations, and responsiveness in email exchanges. To this end, we release SIZZLER, a new dataset containing 1800 emails annotated with nuanced types of intents and expectations. We benchmark models ranging from feature-based logistic regression to zero-shot prompting of large language models. Leveraging the predictive model for intent, expectations, and 14 other features, we analyze 11.3M emails from GMANE to study how linguistic and social factors influence the conversational dynamics in email exchanges. Through our causal analysis, we find that the email response rates are influenced by social status, argumentation, and in certain limited contexts, the strength of social connection.",
+    selected={true},
+    category={NAACL 2025},
+    abbr={NAACL 2025},
 }
-
-@article{zheng2023helpful,
+@inproceedings{zheng2023helpful,
   title={When "A Helpful Assistant" Is Not Really Helpful: Personas in System Prompts Do Not Improve Performances of Large Language Models},
   author={Mingqian Zheng and Jiaxin Pei and Lajanugen Logeswaran and Moontae Lee and David Jurgens},
-  journal={arXiv preprint arXiv:2311.10054},
+  booktitle={Findings of EMNLP},
   year={2024},
+  eprint={2311.10054},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2311.10054},
   selected={true},
   category={EMNLP 2024 Findings},
   archivePrefix={arXiv},
