@@ -13,6 +13,8 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+education: true # includes the education table from _data/education.yml
+experience: true # includes the industry experience table from _data/experience.yml
 social: true # includes social icons at the bottom of the page
 ---
 

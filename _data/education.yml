@@ -1,0 +1,20 @@
+# Education entries shown on the about page (newest first).
+# Rendered by _includes/resume_list.liquid
+
+- title: Carnegie Mellon University
+  url: https://www.lti.cs.cmu.edu/
+  period: Sep 2024 - Present
+  subtitle: Ph.D. in Language and Information Technology
+  detail: "Advisors: Carolyn Rosé, Maarten Sap"
+
+- title: University of Michigan
+  url: https://surveydatascience.isr.umich.edu/
+  period: Sep 2022 - May 2024
+  subtitle: M.S. in Survey and Data Science (Data Science Track)
+  detail: "Advisors: David Jurgens, Yajuan Si"
+
+- title: New York University Shanghai
+  url: https://shanghai.nyu.edu/
+  period: Sep 2018 - May 2022
+  subtitle: B.S. in Mathematics and B.S. in Data Science (Computer Science Track)
+  detail: "Advisors: Shuyang Ling, Hongyi Wen, Olivier Marin"

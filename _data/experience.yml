@@ -1,0 +1,8 @@
+# Industry experience shown on the about page (newest first).
+# Rendered by _includes/resume_list.liquid
+
+- title: Allen Institute for Artificial Intelligence (Ai2)
+  url: https://allenai.org/
+  period: May 2026 - Present
+  subtitle: Research Intern, Open Ecosystem Team
+  detail: "Safety alignment for general long-horizon agent training. Mentors: Maarten Sap, Pradeep Dasigi"
